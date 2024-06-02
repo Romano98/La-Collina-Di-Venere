@@ -196,9 +196,8 @@ h6 {
   height: 100px;  
 }
 
-#header .logo-text {
-  font-size: 1rem;
-  margin-top: 10px;
+#header .logo-text p {
+margin:unset;
 }
 #header .logo h1,.logo h3{
   margin: 0; /* Rimuove margini dai titoli */
@@ -484,7 +483,7 @@ h6 {
 
 #hero:before {
   content: "";
-  /* background: rgba(255, 255, 255, 0.6);*/
+  background: rgba(93 93 93 / 60%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1834,3 +1833,13 @@ video::-webkit-media-controls-mute-button {}
 video::-webkit-media-controls-timeline {}
 
 video::-webkit-media-controls-current-time-display {}
+
+.home-text{
+  color: white;
+}
+.home-text-container{
+  align-items: center;
+}
+.home-video{
+  border-radius: 8px;
+}
