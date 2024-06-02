@@ -484,7 +484,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6);*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1822,3 +1822,15 @@ section {
     padding: 2px 0;
   }
 }
+video::-webkit-media-controls {
+  display: none;
+}
+video::-webkit-media-controls-play-button {}
+
+video::-webkit-media-controls-volume-slider {}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {}
