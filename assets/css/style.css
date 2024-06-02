@@ -156,7 +156,15 @@ h6 {
 #topbar .social-links a:hover {
   color: white;
 }
+@media (max-width: 768px) {
 
+  #topbar{
+    float: none;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 11px;
+  }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
