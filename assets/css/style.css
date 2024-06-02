@@ -175,6 +175,7 @@ h6 {
 #header .logo {
   font-size: 30px;
   margin: 0;
+  width: 10%;
   padding: 0;
   line-height: 1;
   font-weight: 600;
@@ -190,10 +191,25 @@ h6 {
   color: #106eea;
 }
 
-#header .logo img {
-  max-height: 40px;
+#header .logo-img {
+  width: 100px;
+  height: 100px;  
 }
 
+#header .logo-text {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+#header .logo h1,.logo h3{
+  margin: 0; /* Rimuove margini dai titoli */
+}
+#header .logo h1{
+  font-size: 24px; 
+}
+#header .logo h3 {
+  font-size: 18px; /* Imposta la dimensione del font per il sottotitolo */
+  color: #106eea; /* Imposta il colore del sottotitolo */
+}
 .scrolled-offset {
   margin-top: 70px;
 }
@@ -1072,9 +1088,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# neidintorni
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.neidintorni #neidintorni-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -1083,7 +1099,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.neidintorni #neidintorni-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -1096,20 +1112,20 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.neidintorni #neidintorni-flters li:hover,
+.neidintorni #neidintorni-flters li.filter-active {
   color: #106eea;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.neidintorni #neidintorni-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-item {
+.neidintorni .neidintorni-item {
   margin-bottom: 30px;
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.neidintorni .neidintorni-item .neidintorni-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -1121,21 +1137,21 @@ section {
   padding: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
+.neidintorni .neidintorni-item .neidintorni-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
   color: #222222;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.neidintorni .neidintorni-item .neidintorni-info p {
   color: #555555;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.neidintorni .neidintorni-item .neidintorni-info .preview-link,
+.neidintorni .neidintorni-item .neidintorni-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -1143,16 +1159,16 @@ section {
   color: #3c3c3c;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.neidintorni .neidintorni-item .neidintorni-info .preview-link:hover,
+.neidintorni .neidintorni-item .neidintorni-info .details-link:hover {
   color: #106eea;
 }
 
-.portfolio .portfolio-item .portfolio-info .details-link {
+.neidintorni .neidintorni-item .neidintorni-info .details-link {
   right: 10px;
 }
 
-.portfolio .portfolio-item .portfolio-links {
+.neidintorni .neidintorni-item .neidintorni-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -1162,7 +1178,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-links a {
+.neidintorni .neidintorni-item .neidintorni-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
@@ -1170,32 +1186,32 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-links a:hover {
+.neidintorni .neidintorni-item .neidintorni-links a:hover {
   color: #6ba7f5;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
+.neidintorni .neidintorni-item:hover .neidintorni-info {
   opacity: 1;
   bottom: 20px;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# neidintorni Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.neidintorni-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.neidintorni-details .neidintorni-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.neidintorni-details .neidintorni-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.neidintorni-details .neidintorni-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1203,16 +1219,16 @@ section {
   border: 1px solid #106eea;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.neidintorni-details .neidintorni-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #106eea;
 }
 
-.portfolio-details .portfolio-info {
+.neidintorni-details .neidintorni-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.neidintorni-details .neidintorni-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1220,38 +1236,38 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.neidintorni-details .neidintorni-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.neidintorni-details .neidintorni-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.neidintorni-details .neidintorni-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.neidintorni-details .neidintorni-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.neidintorni-details .neidintorni-description p {
   padding: 0;
 }
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
+.dovesiamo {
   padding: 60px 0;
 }
 
-.team .member {
+.dovesiamo .member {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
@@ -1259,12 +1275,12 @@ section {
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
 
-.team .member .member-img {
+.dovesiamo .member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.team .member .social {
+.dovesiamo .member .social {
   position: absolute;
   left: 0;
   bottom: 30px;
@@ -1274,7 +1290,7 @@ section {
   text-align: center;
 }
 
-.team .member .social a {
+.dovesiamo .member .social a {
   transition: color 0.3s;
   color: #222222;
   margin: 0 3px;
@@ -1288,40 +1304,40 @@ section {
   color: #fff;
 }
 
-.team .member .social a:hover {
+.dovesiamo .member .social a:hover {
   background: #3b8af2;
 }
 
-.team .member .social i {
+.dovesiamo .member .social i {
   font-size: 18px;
 }
 
-.team .member .member-info {
+.dovesiamo .member .member-info {
   padding: 25px 15px;
 }
 
-.team .member .member-info h4 {
+.dovesiamo .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #222222;
 }
 
-.team .member .member-info span {
+.dovesiamo .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
 
-.team .member .member-info p {
+.dovesiamo .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
 }
 
-.team .member:hover .social {
+.dovesiamo .member:hover .social {
   opacity: 1;
   bottom: 15px;
 }
