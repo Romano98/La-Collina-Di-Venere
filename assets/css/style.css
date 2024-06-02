@@ -175,12 +175,16 @@ h6 {
 #header .logo {
   font-size: 30px;
   margin: 0;
-  width: 10%;
   padding: 0;
+  height: inherit;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+  height: inherit;
 }
 
 #header .logo a {
@@ -193,22 +197,30 @@ h6 {
 
 #header .logo-img {
   width: 100px;
-  height: 100px;  
+  height: 100px;
 }
 
 #header .logo-text p {
-margin:unset;
+  margin: unset;
 }
-#header .logo h1,.logo h3{
-  margin: 0; /* Rimuove margini dai titoli */
+
+#header .logo h1,
+.logo h3 {
+  margin: 0;
+  /* Rimuove margini dai titoli */
 }
-#header .logo h1{
-  font-size: 24px; 
+
+#header .logo h1 {
+  font-size: 24px;
 }
+
 #header .logo h3 {
-  font-size: 18px; /* Imposta la dimensione del font per il sottotitolo */
-  color: #106eea; /* Imposta il colore del sottotitolo */
+  font-size: 18px;
+  /* Imposta la dimensione del font per il sottotitolo */
+  color: #106eea;
+  /* Imposta il colore del sottotitolo */
 }
+
 .scrolled-offset {
   margin-top: 70px;
 }
@@ -339,6 +351,10 @@ margin:unset;
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.navbar-img {
+  height: 100%;
 }
 
 @media (max-width: 1366px) {
@@ -567,7 +583,7 @@ margin:unset;
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 70vh;
   }
 
   #hero h1 {
@@ -584,6 +600,11 @@ margin:unset;
   #hero .btn-get-started,
   #hero .btn-watch-video {
     font-size: 13px;
+  }
+
+  .home-text {
+    margin-bottom: unset;
+    margin-top: 1rem;
   }
 }
 
@@ -928,9 +949,9 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
-  padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  width: 100%;
 }
 
 .services .icon-box .icon {
@@ -967,7 +988,7 @@ section {
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 0;
+  margin: 20px;
 }
 
 .services .icon-box:hover {
@@ -1821,9 +1842,11 @@ section {
     padding: 2px 0;
   }
 }
+
 video::-webkit-media-controls {
   display: none;
 }
+
 video::-webkit-media-controls-play-button {}
 
 video::-webkit-media-controls-volume-slider {}
@@ -1834,12 +1857,27 @@ video::-webkit-media-controls-timeline {}
 
 video::-webkit-media-controls-current-time-display {}
 
-.home-text{
+.home-text {
   color: white;
 }
-.home-text-container{
+
+.home-text-container {
   align-items: center;
 }
-.home-video{
+
+.home-video {
   border-radius: 8px;
+}
+
+.img-home-appartment-section {
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .icon-box {
+    margin-top: 20px;
+  }
 }
