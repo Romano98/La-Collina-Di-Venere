@@ -237,7 +237,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -376,7 +376,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
@@ -1230,6 +1230,10 @@ section {
   padding-top: 40px;
 }
 
+.portfolio-details .portfolio-details-slider {
+  border-radius: 8px;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1276,6 +1280,7 @@ section {
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  padding-left: 22px;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1548,14 +1553,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info-box {
+.info-box {
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
 }
 
-.contact .info-box i {
+.info-box i {
   font-size: 32px;
   color: #106eea;
   border-radius: 50%;
@@ -1563,18 +1568,23 @@ section {
   border: 2px dotted #b3d1fa;
 }
 
-.contact .info-box h3 {
+.info-box h3 {
   font-size: 20px;
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.contact .info-box p {
+.info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+
+.section-appartment .info-box span {
+  font-size: .8rem;
+
 }
 
 .contact .php-email-form {
@@ -1889,6 +1899,41 @@ video::-webkit-media-controls-current-time-display {}
   max-height: 500px;
   margin-bottom: 20px;
 }
+.services-list-appartment {
+  margin: 10px;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item-appartment {
+  max-width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  align-items: center;
+  min-width: 15%;
+  flex: auto;
+  border: 1px solid #e7e7e7;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.service-item-appartment-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.service-item-appartment-content span {
+  margin-left: 10px;
+}
+
 @media (max-width: 768px) {
   .icon-box {
     margin-top: 20px;
