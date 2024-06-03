@@ -1883,7 +1883,12 @@ video::-webkit-media-controls-current-time-display {}
   max-height: 200px;
   margin-bottom: 20px;
 }
-
+.img-home-appartment-details-section {
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
 @media (max-width: 768px) {
   .icon-box {
     margin-top: 20px;
