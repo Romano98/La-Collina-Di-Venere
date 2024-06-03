@@ -203,7 +203,7 @@
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -257,11 +257,11 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
+    speed: 600,
+    loop: false,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',
