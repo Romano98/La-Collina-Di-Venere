@@ -1923,7 +1923,6 @@ video::-webkit-media-controls-current-time-display {}
   border-radius: 8px;
 }
 .dintorni-item-appartment-content {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
