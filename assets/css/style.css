@@ -2004,7 +2004,7 @@ section.surroundings-section-container{
   word-break: break-word;
   border: 0;
 }
-}
+
 @media (max-width: 600px) {
   .icon-box {
     margin-top: 20px;
