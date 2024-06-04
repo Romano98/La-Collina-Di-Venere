@@ -1973,6 +1973,14 @@ section.surroundings-section-container{
   .section-appartment .contact-section {
     margin-top: 10px;
   }
+
+  .portfolio-details .portfolio-description {
+    padding: 10px;
+  }
+
+  .services-list-appartment {
+    margin: unset;
+  }
 }
 
 @media (max-width: 600px) {
