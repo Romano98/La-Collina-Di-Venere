@@ -36,7 +36,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -247,7 +247,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
@@ -267,7 +267,13 @@
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
-    }
+    },
+    autoHeight:true,
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 
   /**
@@ -283,7 +289,24 @@
   });
 
   /**
-   * Initiate Pure Counter 
+   * Portfolio details slider
+   */
+  new Swiper('.appartment-slider', {
+    speed: 600,
+    loop: false,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: true
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  /**
+   * Initiate Pure Counter
    */
   new PureCounter();
 

@@ -630,6 +630,14 @@ section {
   overflow: hidden;
 }
 
+section.appartment-details{
+  padding: 10px 0;
+}
+
+section.surroundings-section-container{
+  padding: 10px 0;
+}
+
 .section-bg {
   background-color: #f6f9fe;
 }
@@ -1232,6 +1240,7 @@ section {
 
 .portfolio-details .portfolio-details-slider {
   border-radius: 8px;
+
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1241,6 +1250,10 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-slide img {
+  border-radius: 8px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -1882,7 +1895,7 @@ section {
 .img-home-appartment-details-section {
   width: 100%;
   object-fit: cover;
-  max-height: 500px;
+  max-height: 650px;
   margin-bottom: 20px;
 }
 .services-list-appartment {
@@ -1924,8 +1937,61 @@ section {
   margin-left: 10px;
 }
 
+.surroundings-container i {
+  font-size: 1.5rem;
+}
+
+.surroundings-container h4 {
+  margin: 0px 0px 0px 10px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1020px) {
+  .map-container {
+    height: 350px;
+    dth: 100%;  }
+}
+
 @media (max-width: 768px) {
   .icon-box {
     margin-top: 20px;
+  }
+
+  .surroundings-section-container .col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .section-appartment .contact-section {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .icon-box {
+    margin-top: 20px;
+  }
+
+  .surroundings-section-container .col-md-4 {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .surroundings-section-container .col-md-4 .surroundings-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .surroundings-section-container .col-md-4 .surroundings-elements {
+    width: 100%;
+    align-items: center;
   }
 }
