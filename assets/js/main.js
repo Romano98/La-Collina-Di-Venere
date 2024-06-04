@@ -258,7 +258,7 @@
    */
   new Swiper('.portfolio-details-slider', {
     speed: 600,
-    loop: false,
+    loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: true
