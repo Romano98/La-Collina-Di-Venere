@@ -2010,7 +2010,12 @@ section.surroundings-section-container{
   background: #1b4276;
 
 }
-
+.img-home-spiagge {
+  width: 100%;
+  object-fit: cover;
+  max-height: 230px;
+  margin-bottom: 20px;
+}
 @media (max-width: 600px) {
   .icon-box {
     margin-top: 20px;
