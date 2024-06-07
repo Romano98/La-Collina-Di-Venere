@@ -76,12 +76,12 @@
 
             <nav id="navbar" class="navbar ms-auto">
                 <ul>
-                    <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-                    <li class="dropdown"><a href="" class="nav-link scrollto active"><span>I Miei Appartamenti</span> <i
+                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+                    <li class="dropdown"><a class="nav-link scrollto"><span>I Miei Appartamenti</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="EleganzaNelCuoreDiTrapani.html">Eleganza nel Cuore di Trapani</a></li>
-                            <li><a href="Appartamento2.html">Oasi di Tranquillità</a></li>
+                            <li><a href="LeNicchie.html">Le Nicchie</a></li>
+                            <li><a href="LeVolte.html">Le Volte</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contatti</a></li>
@@ -96,12 +96,11 @@
         <!-- ======= Breadcrumbs Section ======= -->
         <section class="breadcrumbs">
             <div class="container">
-
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Eleganza nel Cuore di Trapani</h2>
+                    <h2>Le Nicchie</h2>
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="EleganzaNelCuoreDiTrapani.html">Eleganza nel Cuore di Trapani Dettagli</a></li>
+                        <li><a href="LeNicchie.html">Le Nicchie Dettagli</a></li>
                     </ol>
                 </div>
 
@@ -110,7 +109,7 @@
 
         </div>
         <!-- ======= Portfolio Details Section ======= -->
-        <section id="Appartamento1-details" class="portfolio-details">
+        <section id="Appartamento1-details" class="portfolio-details appartment-details">
             <div class="container">
 
                 <div class="row gy-4">
@@ -153,18 +152,21 @@
                                     <img src="assets/img/Appartamento1/sedie.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide img-home-appartment-details-section">
-                                    <video class="home-video" width="100%" loop autoplay muted>
+                                    <video class="home-video" width="100%" controls="true" controlsList="nodownload">
                                         <source src="assets/img/Appartamento1/videoApp1.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="portfolio-description">
-                            <h2>Benvenuti a Eleganza nel Cuore di Trapani</h2>
+                            <h2>Benvenuti a Le Nicchie</h2>
                             <p>Una splendida villa vacanza a Trapani, Sicilia. Questa elegante proprietà offre quattro
                                 camere da letto, un bagno moderno e una cucina completamente attrezzata. Gli esterni
                                 includono un ampio giardino mediterraneo e una grande piscina privata con area relax.
@@ -207,15 +209,37 @@
                                 </li>
                                 <li role="button" class="service-item-appartment">
                                     <div class="service-item-appartment-content">
+                                        <i class='bx bxs-tv'></i>
+                                        <span>Smart Tv</span>
+                                    </div>
+                                </li>
+                                <li role="button" class="service-item-appartment">
+                                    <div class="service-item-appartment-content">
+                                        <i class='bx bx-hotel'></i>
+                                        <span>Cambio Lenzuola</span>
+                                    </div>
+                                </li>
+                                <li role="button" class="service-item-appartment">
+                                    <div class="service-item-appartment-content">
+                                        <i class='bx bx-face'></i>
+                                        <span>Phon (Asciugacapelli)</span>
+                                    </div>
+                                </li>
+                                <li role="button" class="service-item-appartment">
+                                    <div class="service-item-appartment-content">
+                                        <i class='bx bx-wind'></i>
+                                        <span>Aria Condizionata</span>
+                                    </div>
+                                </li>
+                                <li role="button" class="service-item-appartment">
+                                    <div class="service-item-appartment-content">
                                         <i class='bx bxs-washer'></i>
                                         <span>Lavatrice comune</span>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -224,93 +248,147 @@
     </main><!-- End #main -->
 
 
-    <section id="featured-services" class="featured-services">
+    <section id="featured-services" class="featured-services surroundings-section-container">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h3><span>Cosa c'è nei dintorni?</span></h3>
             </div>
             <div class="row">
-                <ul class="services-list-appartment">
-                    <li role="button" class="service-item-appartment">
-                        <div class="dintorni-item-appartment-content">
-                            <i class='bx bx-restaurant'></i>
-                            <span>Ristorante Pizzeria La Tavernetta</span>
-                            <p>Via Ragosia 50</p>
-                        </div>
-                    </li>
-                    <li role="button" class="service-item-appartment">
-                        <div class="dintorni-item-appartment-content">
-                            <i class='bx bxs-plane-alt'></i>
-                            <span>Aeroporto di Trapani-Birgi "Vincenzo Florio" (TPS)</span>
-                            <p>32 km(30 min)</p>
-                        </div>
-                    </li>
-                    <li role="button" class="service-item-appartment">
-                        <div class="dintorni-item-appartment-content">
-                            <i class='bx bx-plus-medical'></i>
-                            <span>Farmacia Ragusa </span>
-                            <p>Via San Remo 2</p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="col-md-4 pb-5">
+                    <div class="d-flex align-items-center surroundings-container">
+                        <i class='bx bx-car'></i>
+                        <h4>Cosa c'è in zona</h4>
+                    </div>
+                    <div class="d-flex flex-column mt-lg-2 surroundings-elements">
+                        <span class="my-1">Supermercato Decò - 2Km (4 min in auto)</span>
+                        <span class="my-1">Bar Venere - 2Km (4 min in auto)</span>
+                        <span class="my-1">Good Pizza - 2Km (4 min in auto)</span>
+                        <span class="my-1">Farmacia - 2Km (4 min in auto)</span>
+                        <span class="my-1">Porto di Trapani - 13Km (15/20 min in auto)</span>
+                        <span class="my-1">Erice - 10Km (20 min in auto)</span>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-5">
+                    <div class="d-flex align-items-center surroundings-container">
+                        <i class='bx bxs-plane-land'></i>
+                        <h4>Aereoporto</h4>
+                    </div>
+                    <div class="d-flex flex-column mt-lg-2 surroundings-elements">
+                        <span class="my-1">Aeroporto di Trapani - 30Km (25 min in auto)</span>
+                        <span class="my-1">Aeroporto di Palermo - 70Km (55 min in auto)</span>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-5">
+                    <div class="d-flex align-items-center surroundings-container">
+                        <i class='bx bx-swim'></i>
+                        <h4>Spiagge</h4>
+                    </div>
+                    <div class="d-flex flex-column mt-lg-2 surroundings-elements">
+                        <span class="my-1">Baia di Cornino - 9Km (10 min in auto)</span>
+                        <span class="my-1">Macari - 23Km (25 min in auto)</span>
+                        <span class="my-1">San Vito lo Capo - 28Km (30 min in auto)</span>
+                        <span class="my-1">Riserva dello Zingaro - 38Km (45 min in auto)</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section><!-- End Featured Services Section -->
+    <section id="featured-services" class="featured-services surroundings-section-container">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h3><span>La tua Vacanza Nella Collina di Venere</span></h3>
+            </div>
+            <p>
+                Al tuo arrivo a Valderice (Ragosia), sarai accolto dalla bellezza naturale della costa siciliana. Le
+                spiagge di sabbia dorata
+                e le acque cristalline del territorio ti inviteranno a immergerti in un'oasi di relax e tranquillità.
+                Potrai trascorrere le giornate sdraiato al sole,
+                fare nuotate rinfrescanti o partire per emozionanti escursioni in barca lungo la costa di Cornino, San
+                Vito Lo Capo o La Riserva dello Zingaro.
+            </p>
+        </div>
+    </section><!-- End Featured Services Section -->
 
-
-    <div id="contact" class="container section-appartment">
+    <div class="container section-appartment">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5 d-flex flex-column">
                 <div class="section-title">
                     <h3><span>Dove Siamo</span></h3>
                 </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.310541314363!2d12.63058097631377!3d38.039849896845816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13197cba788f1123%3A0x4a7874ee4912b311!2sVia%20Ragosia%2C%20105%2C%2091019%20Valderice%20TP!5e0!3m2!1sit!2sit!4v1717431827337!5m2!1sit!2sit"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.310541314363!2d12.63058097631377!3d38.039849896845816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13197cba788f1123%3A0x4a7874ee4912b311!2sVia%20Ragosia%2C%20105%2C%2091019%20Valderice%20TP!5e0!3m2!1sit!2sit!4v1717431827337!5m2!1sit!2sit"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-3 contact-section">
                 <div class="section-title">
-                    <h3><span>Contattaci</span></h3>
-                    <p>Mandaci un messaggio tramite Email / Whatsapp per prenotare una stanza</p>
+                    <h3><span>Da Palermo</span></h3>
                 </div>
 
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-4 col-sm-12">
-                        <a href="https://wa.me/393475477768">
-                            <div class="info-box mb-4">
-                                <i class='bx bxl-whatsapp'></i>
-                                <h3>Whatsapp</h3>
-                                <span>(+39) 3475477768</span>
-                        </a>
-                    </div>
+                <div class="col-lg-8 col-sm-12 dettagliViaggio">
+                In generale, è abbastanza facile raggiungere Valderice da Palermo con l'auto, il viaggio offre panorami mozzafiato della
+                campagna siciliana. La distanza stradale approssimativa tra Palermo e Valderice è di circa 92 chilometri. 
+                </div>
+            </div>
+            <div class="col-lg-3 contact-section">
+                <div class="section-title">
+                    <h3><span>Da Trapani</span></h3>
+                </div>
+
+                <div class="col-lg-8 col-sm-12 dettagliViaggio">
+                   La strada più comune per raggiungere Valderice da Trapani è attraverso la SS187. Il viaggio in auto da Trapani
+                   a Valderice dura circa 18 minuti con una distanza di 10 chilometri.
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contatti</h2>
+                <h3><span>Contattaci</span></h3>
+                <p>Mandaci un messaggio tramite Email / Whatsapp per prenotare una stanza</p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-sm-12">
+                    <a href="https://wa.me/393475477768">
+                        <div class="info-box mb-4">
+                            <i class='bx bxl-whatsapp'></i>
+                            <h3>Whatsapp</h3>
+                            (+39) 3475477768
                     </a>
                 </div>
-
-                <div class="col-lg-4 col-sm-12">
-                    <div class="info-box  mb-4">
-                        <a href="mailto:lacollinadivenere@libero.it">
-                            <i class="bx bx-envelope"></i>
-                            <h3>Email</h3>
-                            <span>lacollinadivenere@libero.it</span>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="info-box  mb-4">
+                    <a href="mailto:lacollinadivenere@libero.it">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email</h3>
+                        lacollinadivenere@libero.it
+                    </a>
                 </div>
+                <a href="https://wa.me/393475477768">
+                    <button class ="buttonPrenota" type="button">Prenota</button></a>
+            </div>
 
-                <div class="col-lg-4 col-sm-12">
-                    <div class="info-box  mb-4">
-                        <a href="tel:+393475477769">
-                            <i class="bx bx-phone-call"></i>
-                            <h3>Chiamami</h3>
-                            <span>(+39) 3475477769</span>
-                        </a>
-                    </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="info-box  mb-4">
+                    <a href="tel:+393475477769">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Chiamami</h3>
+                        (+39) 3475477769
+                    </a>
                 </div>
             </div>
 
         </div>
-    </div>
-    </div>
+         </div>
+    </section>
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
@@ -335,8 +413,10 @@
                         <h4>Link Utili</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="EleganzaNelCuoreDiTrapani.html">Appartamento 1</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="Appartamento2.html">Appartamento 2</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="LeNicchie.html">Eleganza nel
+                                    Cuore di Trapani</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="LeVolte.html">Oasi di Tranquillità</a>
+                            </li>
                         </ul>
                     </div>
 
