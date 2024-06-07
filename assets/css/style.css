@@ -2006,7 +2006,7 @@ section.surroundings-section-container{
 }
 
 .buttonPrenota{
-  margin-left: 160px;
+  margin-left: auto;
   background: #5E5DF0;
   border-radius: 999px;
   box-shadow: #106eea 0 10px 20px -10px;
