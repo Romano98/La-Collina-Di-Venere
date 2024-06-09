@@ -2082,10 +2082,23 @@ section.surroundings-section-container {
 }
 .divTranslate{
     width: 155px;
-     height: 45px; 
-     border-radius: 8px;
-     border-color: #106eea;
+     height: 30px; 
+     margin: auto;
 }
+.goog-logo-link {
+    display:none !important;
+ }
+ 
+ .goog-te-gadget {
+    color: transparent !important;
+ }
+ 
+ .goog-te-gadget .goog-te-combo {
+    color: blue !important;
+ }
+ .goog-te-gadget img {
+    display: none !important;
+ }
 @media (max-width: 600px) {
     .icon-box {
         margin-top: 20px;
