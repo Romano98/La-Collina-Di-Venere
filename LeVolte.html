@@ -63,6 +63,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center header-container">
+        <a id="google_translate_element"></a>
         <a href="index.html" class="logo">
             <img src="assets/img/favicon.jpg" class="navbar-img" alt="">
         </a>
@@ -143,7 +144,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="portfolio-description">
-                        <h2>Le Volte Appartment</h2>
+                        <h2>Appartamento Le Volte</h2>
                         <p>L'appartamento "Le Volte" si presenta interamente ristrutturato e prende il nome dal tetto
                             dell'abitazione fatto con le "volte antiche" di cui è dotato. Spogliato dai vecchi intonaci
                             si è riscoperto un affascinante ambiente rustico con tufi risalenti all'epoca passata.
@@ -448,10 +449,17 @@
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
 </body>
-
+<script> 
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+    </script>
 </html>

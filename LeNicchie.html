@@ -63,6 +63,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center header-container">
+        <a id="google_translate_element"></a>
         <a href="index.html" class="logo">
             <img src="assets/img/favicon.jpg" class="navbar-img" alt="">
         </a>
@@ -167,7 +168,7 @@
 
                 <div class="col-lg-5">
                     <div class="portfolio-description">
-                        <h2>Le Nicchie Appartment</h2>
+                        <h2>Appartamento Le Nicchie</h2>
                         <p>L'appartamento "Le Nicchie" deriva da un vecchio fabbricato rurale dell'800, che viene
                             ristrutturato minuziosamente facendo rivivere le vecchie mura di pietra e riscoprendo le
                             vecchie "nicchie" nascoste di cui l'appartamento anticamente si vantava.
@@ -489,10 +490,17 @@
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
 </body>
-
+<script> 
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+    </script>
 </html>

@@ -43,7 +43,6 @@
   </head>
 
   <body>
-
     <!-- ======= Top Bar ======= -->
     <section id="topbar" class="d-flex align-items-center">
       <div
@@ -67,6 +66,7 @@
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex align-items-center header-container">
+        <a id="google_translate_element"></a>
         <a href="index.html" class="logo">
           <img src="assets/img/favicon.jpg" class="navbar-img" alt>
         </a>
@@ -102,8 +102,7 @@
       <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <div class="row">
           <div class="col-lg-6 col-md-6 d-flex">
-            <video class="home-video" width="100%" loop autoplay muted
-              -webkit-media-controls-none>
+            <video class="home-video" width="100%" loop autoplay muted>
               <source src="assets/img/intro.mp4" type="video/mp4" />
             </video>
           </div>
@@ -461,10 +460,17 @@
       <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
       <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
       <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
 
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
 
     </body>
-
+    <script> 
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en'
+        }, 'google_translate_element');
+      }
+      </script>
   </html>
