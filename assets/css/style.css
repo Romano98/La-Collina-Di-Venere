@@ -2084,7 +2084,7 @@ section.surroundings-section-container {
     width: 155px;
      height: 45px; 
      border-radius: 8px;
-
+     border-color: #106eea;
 }
 @media (max-width: 600px) {
     .icon-box {
