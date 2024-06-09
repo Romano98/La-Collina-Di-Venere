@@ -2080,7 +2080,12 @@ section.surroundings-section-container {
     margin-bottom: 20px;
     border-radius: 8px;
 }
+.divTranslate{
+    width: 155px;
+     height: 45px; 
+     border: thin solid black;
 
+}
 @media (max-width: 600px) {
     .icon-box {
         margin-top: 20px;
