@@ -2083,7 +2083,7 @@ section.surroundings-section-container {
 .divTranslate{
     width: 155px;
      height: 45px; 
-     border: thin solid black;
+     border-radius: 8px;
 
 }
 @media (max-width: 600px) {
